@@ -386,9 +386,10 @@ else
     minetest.register_craft({
         output = "wisp:jar",
         recipe = {
-            {"group:glass", "group:wood", "group:glass"},
-            {"group:glass", "", "group:glass"},
-            {"group:glass", "group:glass", "group:glass"}
+            {"default:glass", "group:wood",  "default:glass"},
+            {"default:glass", "",            "default:glass"},
+            {"default:glass", "group:glass", "default:glass"}
         }
     })
+
 end
